@@ -1,0 +1,113 @@
+body {
+    font-family: "Lato", sans-serif;
+}
+
+#mySidenav{
+    margin-top: 51px;
+    margin-left: 1px;
+    background-color: white;
+    font-weight: bold;
+    padding-top: 1px;
+
+}
+#menutext{
+    position: relative;
+    font-weight: bold;
+    font-size:17px;
+    color: #838383;
+    padding-left: 10px;
+}
+#openarrow{
+    font-size:20px;
+    cursor:pointer;
+    color: #359640;
+    margin-left: -4px;
+}
+#closearrow{
+    font-size:20px;
+    cursor:pointer;
+    color: #359640;
+}
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+    color: #838383;
+    font-size: 15px;
+
+}
+
+.sidenav a:hover {
+    color: white;
+    background: #359640;
+    text-decoration: none;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: -10px;
+}
+
+#main {
+    transition: margin-left .5s;
+    padding-left: 20px;
+    font-weight: bold;
+    color: #359640;
+}
+#iconclose{
+    padding: 10px 18px 10px 17px;
+    height: 45px;
+    margin-left: 0px;
+    margin-top: -10px;
+    display:inline-block;
+    color: #838383;
+    text-align: center;
+}
+#iconclose i{
+    width: 16px;
+    width: 16px;
+}
+
+.iconclosebar a:hover{
+    background: #99ff99;
+}
+.iconclosebar .active{
+    background: #99ff99;
+}
+
+#drdcontent {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    z-index: 1;
+    margin-left: 100px;
+    margin-top: -5px;
+    width: 150px;
+}
+
+#d1:hover #drdcontent {
+    display: block;
+}
+#d1{
+    width: 100%;
+}

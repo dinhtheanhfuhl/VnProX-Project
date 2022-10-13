@@ -1,0 +1,88 @@
+body {
+    font-family: 'Muli', sans-serif;
+}
+#bg{
+    background-color: #0F711A;
+}
+#sidebarpos{
+    position: absolute;
+    background-color: #F9F9F9;
+    height: 100%;
+}
+#changepass {
+    font-family: 'Signika Negative';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    color: #359640;
+    margin-left: 30px;
+}
+h7{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 29px;
+    color: #000000;
+    margin-left: 5px;
+}
+
+#cancel{
+    background: #ACACAC;
+    color: black;
+    border: #E8D426;
+    float: left;
+    width: 70px;
+    margin-top: 27px;
+    margin-left: 210px;
+}
+#changepassform div input{
+    border: 1px solid #ACACAC;
+    border-radius: 10px;
+}
+#inside{
+    border-radius: 10px;
+    margin-top: 30px;
+}
+#buttonSave {
+    background: #28a745;
+    border: #E8D426;
+    float: right;
+    width: 70px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-right: 40px;
+}
+#buttonSave:hover {
+    background: #28a745;
+    border: #E8D426;
+}
+#input{
+    margin-top: 10px;
+    width: 350px;
+    margin-left: 20px;
+    margin-bottom: 16px;
+}
+
+#navbar{
+    width:96%;
+    float: right;
+    background: #E1E1E1;
+    text-decoration: none;
+    padding-left: 15px;
+    padding-top: 10px;
+
+}
+#arrow{
+    display: inline-block;
+}
+#navbar a{
+    text-decoration: none;
+    color: black;
+}
+#navbar a:hover{
+    color: #03B417;
+}
+#navbar #changepasstext{
+    color: #03B417;
+}

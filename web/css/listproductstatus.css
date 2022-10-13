@@ -1,0 +1,157 @@
+#header{
+    margin-left: -10px;
+}
+#sidebarpos{
+    position: absolute;
+    background-color: #F9F9F9;
+    height: 700px;
+}
+#bgpage{
+    background-color: #F5F5F5;
+}
+#contentpos{
+    background-color: white;
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 40px;
+    padding-top: 40px;
+    height: 1500px;
+}
+#navbar{
+    width:96%;
+    float: right;
+    background: white;
+    text-decoration: none;
+    padding-left: 15px;
+    padding-top: 10px;
+}
+#navbar2{
+    width:90%;
+    float: left;
+    background: white;
+    text-decoration: none;
+    padding-top: 10px;
+    margin-top: 10px;
+    height: 90px;
+    margin-left: 88px;
+}
+#navbar3{
+    width:90%;
+    float: left;
+    background: white;
+    text-decoration: none;
+    padding-top: 10px;
+    margin-top: 10px;
+    height: 110px;
+    margin-left: 88px;
+}
+#arrow{
+    display: inline-block;
+}
+#navbar #producttext{
+    color: #03B417;
+}
+#bg{
+    background-color: #F5F5F5;
+}
+#qltext{
+    color: black;
+}
+#inputfield{
+    width: 140px;
+    margin-right: 50px;
+    margin-top: 0px;
+}
+
+#form{
+    margin-left: 30px;
+    margin-top: 0px;
+}
+
+#btnsearch{
+    width: 50px;
+    background-color:#2186EB;
+    color: white;
+}
+#tb2{
+    background-color: white;
+    margin-top: 170px;
+    margin-left: 88px;
+}
+#action{
+    margin-left: 45px;
+    margin-top: 15px;
+    position: absolute;
+}
+#dropbtn{
+    width: 130px;
+    background-color: #E1E1E1;
+    color: black;
+    height: 40px;
+}
+#dropbtn:hover{
+    color: white;
+    background-color: #359640;
+}
+#pagination{
+    float: right;
+    margin-right: 50px;
+    margin-top: 49px;
+}
+#pagination a{
+    color: white;
+    padding: 10px 15px 10px 15px;
+    background-color: #359640;
+}
+#msgtext{
+    margin-top: 65px;
+    margin-left: 20px;
+    color: #565656;
+    font-family: 'Inter';
+    font-style: normal;
+}
+#msgtext2{
+    margin-top: 30px;
+    margin-left: 20px;
+    color: #565656;
+    font-family: 'Inter';
+    font-style: normal;
+}
+#tb4{
+    background: #F5F5F5;
+    height: 40px;
+    margin-top: 10px;
+    
+}
+#s{
+    padding-left: 10px;
+    padding-right: 50px;
+    border:1px solid black;
+    color: #2D8FE7;
+}
+#drdinput{
+    margin-right: 50px;
+}
+#drdinput2{
+    margin-right: 50px;
+}
+#areasort{
+    width: 100px;
+    height: 30px;
+    outline: 1px solid black;
+    border-radius: 4px;
+    margin-top: 20px;
+}
+#areasort:focus{
+    color: #000;
+    background-color: #fff;
+    border: 2px solid #E8D426;
+    outline:  0;
+    box-shadow: none;
+}
+#sorttext{
+    margin-top: 25px;
+    position: absolute;
+    margin-left: -110px;
+    font-weight: bold;
+}

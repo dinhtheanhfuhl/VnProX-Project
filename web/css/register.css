@@ -1,0 +1,178 @@
+body {
+    font-family: 'Muli', sans-serif;
+}
+h1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 58px;
+    color: #000000;
+}
+#infoheader{
+    text-align: center;
+}
+#gender{
+    width: 300px;
+}
+#infotext{
+    font-family: 'Signika Negative';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    color: #000000;
+}
+#headertext{
+    margin-left: 500px;
+    position: absolute;
+    margin-top: 10px;
+}
+#forminfo{
+    position: absolute;
+    float: left;
+    margin-top: 110px;
+}
+#registerbtn{
+    background: #359640;
+    border-radius: 10px 10px 10px 10px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    color: #FFFFFF;
+    border-style: none;
+    padding: 10px 18px 10px 15px;
+    margin-left: 500px;
+    margin-top: 40px;
+    position: absolute;
+    width: 100px;
+}
+.vertical {
+    border: 0.5px solid #818181;
+    height: 320px;
+    position:absolute;
+    margin-left: 640px;
+    margin-top: 130px;
+}
+#registerbtn:hover{
+    transition: 0.5s all ease-in-out;
+    transform: scale(1.11);
+    backface-visibility: hidden;
+
+}
+
+
+body img{
+    position: absolute;
+    object-fit: cover;
+}
+
+#kinhdoanhform{
+    margin-left: 600px;
+    margin-top: -141px;
+}
+#kinhdoanhtext{
+    font-family: 'Signika Negative';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    color: #000000;
+    margin-left: 600px;
+    position: absolute;
+    width: 200px;
+    margin-top: -190px;
+}
+a:hover {
+    color: #E8D426;
+    text-decoration: none;
+}
+table tr td p{
+    width: 150px;
+    font-family: 'Inter';
+    font-style: normal;
+
+}
+table tr td div{
+    margin-left: 40px;
+    width: 300px;
+}
+#gender{
+    height: 30px;
+    outline: 1px solid black;
+    border-radius: 4px;
+}
+#gender:focus{
+    color: #000;
+    background-color: #fff;
+    border: 2px solid #E8D426;
+    outline:  0;
+    box-shadow: none;
+}
+table tr td div .form-control{
+    height: 30px;
+}
+.form-control{
+    outline: 1px solid black;
+}
+.form-control:focus {
+    color: #000;
+    background-color: #fff;
+    border: 2px solid #E8D426;
+    outline:0;
+    box-shadow: none;
+}
+.btn {
+    background: #28a745;
+    border: #E8D426;
+}
+#submitForm{
+    width: 300px;
+}
+#allform{
+    margin-left: -10px;
+}
+.btn:hover {
+    background: #28a745;
+    border: #E8D426;
+}
+#avatar{
+    vertical-align: middle;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    margin-top: -400px;
+    margin-left: 800px;
+    background-color: #D9D9D9;
+    border-radius: 100px;
+}
+#avatartext{
+    vertical-align: middle;
+    width: 150px;
+    position: absolute;
+    margin-top: -240px;
+    margin-left: 830px;
+    font-weight: 700;
+}
+#camera{
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    margin-top: -300px;
+    margin-left: 900px;
+    background-color: #ACACAC;
+    border-radius: 20px;
+    padding: 10px 10px 10px 10px;
+}
+#filetext{
+    color: #50ACF5;
+    cursor: pointer;
+    font-weight: bold;
+}
+#filetext:hover{
+    color: #fff;
+}
+#getFile{
+    display:none;
+}

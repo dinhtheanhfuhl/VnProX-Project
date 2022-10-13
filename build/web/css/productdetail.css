@@ -1,0 +1,27 @@
+#header{
+    margin-left: -10px;
+}
+#sidebarpos{
+    position: absolute;
+    background-color: #F9F9F9;
+    height: 700px;
+}
+#bgpage{
+    background-color: #F5F5F5;
+}
+#contentpos{
+    background-color: white;
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 40px;
+    padding-top: 40px;
+    height: 1500px;
+}
+#navbar{
+    width:96%;
+    float: right;
+    background: white;
+    text-decoration: none;
+    padding-left: 15px;
+    padding-top: 10px;
+}

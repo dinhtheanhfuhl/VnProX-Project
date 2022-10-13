@@ -1,0 +1,105 @@
+body {
+    font-family: 'Muli', sans-serif;
+}
+h1 {
+    font-family: 'Signika Negative';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 47px;
+    color: #359640;
+    text-align: center;
+}
+input::placeholder {
+    opacity: .5;
+    font-size: 14px;
+}
+#inside{
+    border-radius: 20px;
+    margin-left: -30px;
+    margin-right: 40px;
+}
+#username{
+    border-radius: 10px 50px 10px 10px;
+}
+#password{
+    border-radius: 10px 50px 10px 10px;
+}
+#logintext{
+    font-family: 'Signika Negative';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    color: #1C7326;
+}
+#loginform{
+    margin-top: 60px;
+    width: 400px;
+    position: absolute;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+#loginbutton{
+    background: #359640;
+    border-radius: 10px 10px 10px 10px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    color: #FFFFFF;
+    border-style: none;
+    padding: 10px 15px 10px 15px;
+    margin-left: 105px;
+}
+#loginbutton:hover{
+    transition: 0.5s all ease-in-out;
+    transform: scale(1.11);
+    backface-visibility: hidden;
+}
+
+#slogan{
+    font-family: 'Signika Negative';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #359640;
+    text-align: center;
+    margin-top: -10px;
+}
+body img{
+    position: absolute;
+    object-fit: cover;
+}
+a {
+    color: #333;
+}
+#regisnow{
+    font-family: 'Inter';
+    color: #1C7326;
+}
+#remember{
+    font-family: 'Inter';
+    color: #1C7326;
+}
+#forgetpass{
+    font-family: 'Inter';
+    color: #1C7326;
+}
+
+.form-control:focus {
+    color: #000;
+    background-color: #fff;
+    border: 2px solid #E8D426;
+    outline: 0;
+    box-shadow: none;
+}
+.btn {
+    background: #28a745;
+    border: #E8D426;
+}
+.btn:hover {
+    background: #28a745;
+    border: #E8D426;
+}
+

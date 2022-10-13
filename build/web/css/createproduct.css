@@ -1,0 +1,298 @@
+#header{
+    margin-left: -10px;
+}
+#sidebarpos{
+    position: absolute;
+    background-color: #F9F9F9;
+    height: 1500px;
+}
+#bgpage{
+    background-color: #F5F5F5;
+}
+#contentpos{
+    background-color: white;
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 40px;
+    padding-top: 40px;
+    height: 1500px;
+}
+
+#namedisplay{
+    background-color: #F9F9F9;
+    margin-left: 100px;
+    margin-bottom: 10px;
+    width: 700px;
+}
+#videolink{
+    background-color: #F9F9F9;
+    margin-left: 100px;
+    margin-bottom: 10px;
+    width: 700px;
+}
+#uploadimage{
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    left: 310px;
+    top: 184.59px;
+    background-color: white;
+    color: #50ACF5;
+    border-style: dotted;
+    margin-top: 40px;
+
+}
+#filetext{
+    color: #50ACF5;
+    cursor: pointer;
+    font-weight: bold;
+}
+#filetext:hover{
+
+}
+
+#getFile{
+    display:none;
+}
+#basicinfotext{
+    margin-bottom: 14px;
+}
+#namedis{
+    margin-bottom: 30px;
+}
+
+#namedisplay{
+    background-color: #F9F9F9;
+    margin-left: 100px;
+    margin-bottom: 20px;
+}
+#des{
+    margin-bottom: 220px;
+}
+#description{
+    height: 209px;
+    margin-left: 100px;
+    margin-bottom: 20px;
+    width: 700px;
+}
+#barcod{
+    margin-bottom: 20px;
+
+}
+#barcode{
+    margin-left: 100px;
+    margin-bottom: 20px;
+    width: 300px;
+}
+#licen{
+    margin-bottom: 17px;
+}
+#licence{
+    margin-left: 100px;
+    margin-bottom: 20px;
+}
+#areamove{
+    margin-left: 140px;
+}
+#danhm{
+    margin-bottom: 20px;
+}
+#list{
+    margin-left: 100px;
+    margin-bottom: 20px;
+}
+table tr td input{
+    margin-left: -50px;
+}
+#navbar{
+    width:96%;
+    float: right;
+    background: rgba(196, 196, 196, 0.47);
+    text-decoration: none;
+    padding-left: 15px;
+    padding-top: 10px;
+
+}
+#arrow{
+    display: inline-block;
+}
+#navbar a{
+    text-decoration: none;
+    color: black;
+}
+#navbar a:hover{
+    color: #03B417;
+}
+#navbar #newproducttext{
+    color: #03B417;
+}
+table{
+    margin-left: 100px;
+}
+
+#tb2{
+    margin-left: 100px;
+    margin-top: 60px;
+}
+#inputform{
+    padding-right: 100px;
+    width: 340px;
+}
+#inputform2{
+    width: 240px;
+}
+#texttpro{
+    font-weight: 500;
+    margin-right: 100px;
+    width: 100px;
+}
+#tb3{
+    margin-left: 140px;
+    margin-top: 60px;
+}
+#form{
+    margin-left: 20px;
+}
+#numberandprice{
+    width: 140px;
+}
+#infotextsale{
+    padding-right: 20px;
+
+}
+#tb3 thead tr th p{
+    font-weight: 100;
+    padding-right: 100px;
+}
+#basicinfor{
+    position: absolute;
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 170px;
+    margin-top: 70px;
+}
+#detailinfor{
+    position: absolute;
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 90px;
+    margin-top: 20px;
+}
+#saleinfor{
+    position: absolute;
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 90px;
+    margin-top: 20px;
+}
+#price{
+    padding-left: 100px;
+
+}
+#pricetext{
+    padding-left: 50px;
+    padding-top: 10px;
+}
+#p{
+    width: 150px;
+}
+#numberfromtext{
+    margin-left: -50px;
+    margin-top: 15px;
+    width: 190px;
+}
+
+#numberfrom{
+    margin-top: -10px;
+}
+#danhmuc{
+    height: 30px;
+    border-radius: 4px;
+    width: 300px;
+}
+#danhmuc:focus{
+    color: #000;
+    background-color: #fff;
+    border: 2px solid #ccffff;
+    outline:  0;
+    box-shadow: none;
+}
+
+#unit{
+    height: 30px;
+    border-radius: 4px;
+    width: 100px;
+    margin-right: 160px;
+    margin-left: 13px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+#cancel {
+    background: #646464;
+    border: #E8D426;
+    color: white;
+    margin-left: 670px;
+    width: 90px;
+    height: 40px;
+    margin-top: 70px;
+}
+#save {
+    background: #28a745;
+    border: #E8D426;
+    color: white;
+    width: 190px;
+    height: 40px;
+    margin-top: -56.9px;
+    position: absolute;
+    margin-left: 800px;
+    border-radius: 0px;
+}
+#contentpos #licennote{
+    cursor: pointer;
+}
+#licennote:hover a{
+    visibility: visible;
+    opacity: 1;
+}
+#licennote {
+    position: relative;
+    display: inline-block;
+}
+
+#licennote a{
+    width: 200px;
+    background-color: #ccffff;
+    color: #ACACAC;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 5px;
+    position: absolute;
+    top: 125%;
+    left: 50%;
+    margin-left: -120px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+#note{
+    position: absolute;
+    margin-top: 500px;
+    margin-left: 213px;
+}
+#addnew{
+    float: left;
+    margin-left: -50px;
+    color: #08f;
+}
+#garbage{
+    padding-left: 10px;
+}
+#areadrop{
+    width: 180px;
+}
+iframe{
+    width: 160px;
+    height: 160px;
+    margin-left: 100px;
+}

@@ -1,0 +1,69 @@
+body {
+    font-family: 'Muli', sans-serif;
+}
+#bg{
+    background-color: #BABABA;
+}
+#header{
+    margin-left: -10px;
+}
+#formforget{
+    height: 450px;
+}
+#formforget input{
+    width: 300px;
+    margin-left: 50px;
+}
+#nameinput{
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 16px;
+    line-height: 17px;
+    color: black;
+    margin-bottom: 1px;
+    margin-left: 50px;
+}
+#forgettext {
+    font-family: 'Signika Negative';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    color: #1C7326;
+    margin-bottom: 26px;
+    margin-left: 50px;
+}
+
+
+#sendemail {
+    background: #28a745;
+    border: #E8D426;
+    width: 300px;
+    margin-left: 50px;
+}
+#sendemail:hover {
+    transition: 0.5s all ease-in-out;
+    transform: scale(1.11);
+    backface-visibility: hidden;
+}
+#back{
+    text-decoration: none;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+#back:hover{
+    color: greenyellow;
+}
+#confirm{
+    background: #28a745;
+    border: #E8D426;
+    width: 120px;
+    float: right;
+    margin-right: 50px;
+}
+#confirm:hover {
+    transition: 0.5s all ease-in-out;
+    transform: scale(1.11);
+    backface-visibility: hidden;
+}
+
