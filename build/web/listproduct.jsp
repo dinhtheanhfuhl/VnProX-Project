@@ -134,15 +134,23 @@
                     </tr>
                 </table>
             </div>
+            <div id="btnfilter">
+                <button id="new" type="button">Làm mới</button>
+                <button id="filter" type="button">Lọc</button>
+            </div>
         </div>
         <div id="right">
-            <table>
-                <tr>
-                    <td>Sắp xếp theo</td>
-                    <td>Phổ biến</td>
-                    <td>Mới nhất</td>
-                    <td>Mới nhất</td>
-                </tr>
+            <img src="image/pexels-jane-doan-1099680.jpg" height="60px;" width="100%;" alt=""/>
+            <table id="tb2">
+                <a id="btndsorttext">Sắp xếp theo</a>
+                <a id="btndsort"><button type="button">Phổ Biến</button></a>
+                <a id="btndsort"><button type="button">Mới Nhất</button></a>
+                <a>
+                    <select name="sortbyprice" id="sortbyprice">
+                        <option>Giá: Từ thấp tới cao</option>
+                        <option>Giá: Từ cao tới thấp</option>
+                    </select>
+                </a>
             </table>
             <div class="col-sm-3">
                 <div class="col-item" >

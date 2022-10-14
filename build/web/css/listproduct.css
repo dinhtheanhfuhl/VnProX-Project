@@ -56,7 +56,7 @@
     width: 960px;
     position: absolute;
     margin-left: 300px;
-    margin-top: -410px;
+    margin-top: -550px;
 }
 
 #cate {
@@ -183,4 +183,49 @@ table tr th p{
     text-align: center;
     color: #818181;
     float: left;
+}
+#btnfilter{
+    margin-top: 900px;
+    margin-left: 80px;
+    position: absolute;
+}
+#new{
+    background: #646464;
+    color: white
+}
+#filter{
+    background: #359640;
+    color: white;
+}
+#btndsort{
+    margin-right: 12px;
+    margin-left: 5px;
+}
+#btndsort button{
+    color: black;
+    background-color: white;
+    margin-top: 40px;
+}
+#btndsort button:hover{
+    color: white;
+    background: #359640;
+}
+#btndsorttext {
+    color: #656565;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    margin-left: 10px;
+}
+#tb2{
+    margin-bottom: 20px;
+}
+#sortbyprice{
+    width: 199px;
+    height: 33px;
+    border-style: none;
+    margin-left: 10px;
+}
+#right img{
+    object-fit: cover;
 }
