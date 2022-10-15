@@ -1,0 +1,66 @@
+#allcate{
+    font-weight: bold;
+    margin-top: 30px;
+}
+#navbar{
+    background: rgba(200, 200, 200, 0.67);
+}
+#tablecate{
+    background: white;
+    margin-top: 70px;
+    margin-left: 90px;
+}
+#addcatetext{
+    color: #359640;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    position: absolute;
+    margin-left: 350px;
+    margin-top: -33px;
+    font-size: 20px;
+}
+#search{
+    color: white;
+    background: #359640;
+}
+#form{
+    margin-left: 700px;
+    margin-top: -33px;
+}
+table{
+    margin-top: 30px;
+}
+#level{
+    border:1px solid #00ffff;
+    width: 300px;
+}
+#btnadd{
+    background-color: white;
+    color:#50ACF5;
+
+}
+#btnpos{
+    margin-left: 400px;
+    margin-top: 10px;
+}
+#cancel {
+    background: #646464;
+    border: #E8D426;
+    color: white;
+    margin-left: 460px;
+    width: 90px;
+    height: 40px;
+    margin-top: 10px;
+}
+#save {
+    background: #28a745;
+    border: #E8D426;
+    color: white;
+    width: 90px;
+    height: 40px;
+    margin-top: -56.9px;
+    position: absolute;
+    margin-left: 570px;
+    border-radius: 0;
+}

@@ -11,9 +11,10 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Danh mục sản phẩm</title>
         <link href="css/listproductstatus.css" rel="stylesheet" type="text/css"/>
+        <link href="css/managecate.css" rel="stylesheet" type="text/css"/>
     </head>
     <body id="bg">
-        <jsp:include page="common/header.jsp" />
+        <jsp:include page="common/header2.jsp" />
         <div id="sidebarpos">
             <jsp:include page="common/sidebar.jsp" />
         </div>
@@ -22,10 +23,18 @@
             <p id="arrow">></p>
             <a id="producttext" href="#">Danh mục</a>
         </div>
-        <div id="tb2" class="container">
-            <table>
-                <h4>Tất cả danh mục</h4>
-            </table>
+        <div id="tablecate" class="container">
+            <h4 id="allcate">Tất cả danh mục</h4>
+            <a id="addcatetext" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" fill="currentColor" class="bi bi-plus-square" viewBox="0 0 16 16">
+                <path d="M14 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h12zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"/>
+                <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z"/>
+                </svg> Thêm danh mục mới</a>
+            <div id="form" >
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Nhập nội dung tìm kiếm" aria-label="Search">
+                    <button id="search" class="btn btn-outline-success my-2 my-sm-0" type="submit">Tìm kiếm</button>
+                </form>
+            </div>
             <table class="table">
                 <thead>
                     <tr>
