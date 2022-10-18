@@ -6,6 +6,8 @@
     background-color: #F9F9F9;
     height: 1500px;
 }
+
+
 #bgpage{
     background-color: #F5F5F5;
 }
@@ -42,16 +44,93 @@
     margin-top: 40px;
 
 }
+#preview{
+    margin-left: 100px;
+}
+
+#filetext2{
+    color: #50ACF5;
+    cursor: pointer;
+    font-weight: bold;
+    margin-left: 129px;
+    margin-top: 30px;
+    position: absolute;
+}
+#addimage1{
+    position: absolute;
+    margin-left: 100px;
+    margin-top: -80px;
+}
+#addimage2{
+    position: absolute;
+    margin-left: 200px;
+    margin-top: -80px;
+}
+#addimage3{
+    position: absolute;
+    margin-left: 300px;
+    margin-top: -80px;
+}
+#addimage4{
+    position: absolute;
+    margin-left: 400px;
+    margin-top: -80px;
+}
+#addimage5{
+    position: absolute;
+    margin-left: 500px;
+    margin-top: -80px;
+}
+
+
+#fileimage{
+    margin-left: 100px;
+    color: #50ACF5;
+    cursor: pointer;
+    font-weight: bold;
+    position: absolute;
+}
+::-webkit-file-upload-button {
+   display: none;
+}
+#iconplus{
+    margin-left: 30px;
+    position: absolute;
+    cursor: pointer;
+    color: #50ACF5;
+    margin-top: 30px;
+}
+#myfile{
+    margin-left: 170px;
+    margin-top: -33.5px;
+}
 #filetext{
     color: #50ACF5;
     cursor: pointer;
     font-weight: bold;
 }
-#filetext:hover{
-
-}
-
 #getFile{
+    display:none;
+}
+#getFile1{
+    display:none;
+}
+#getFile3{
+    display:none;
+}
+#getFile2{
+    display:none;
+}
+#getFile{
+    display:none;
+}
+#getFile1{
+    display:none;
+}
+#getFile3{
+    display:none;
+}
+#getFile4{
     display:none;
 }
 #basicinfotext{
@@ -277,7 +356,7 @@ table{
 }
 #note{
     position: absolute;
-    margin-top: 500px;
+    margin-top: 520px;
     margin-left: 213px;
 }
 #addnew{
@@ -295,4 +374,11 @@ iframe{
     width: 160px;
     height: 160px;
     margin-left: 100px;
+}
+#display-image{
+    width: 400px;
+    height: 225px;
+    border: 1px solid black;
+    background-position: center;
+    background-size: cover;
 }

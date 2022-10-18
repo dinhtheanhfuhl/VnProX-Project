@@ -17,11 +17,237 @@
     padding-top: 40px;
     height: 1500px;
 }
+#save{
+    background: green;
+    border: #E8D426;
+    color: white;
+    height: 40px;
+    margin-top: -70px;
+    margin-left: 770px;
+    border-radius: 0;
+    position: absolute;
+}
 #navbar{
     width:96%;
     float: right;
-    background: white;
+    background: #C4C4C4;
     text-decoration: none;
     padding-left: 15px;
     padding-top: 10px;
+}
+#arrow{
+    display: inline-block;
+}
+#navbar #producttext{
+    color: #03B417;
+}
+#qltext{
+    color: black;
+}
+.container{
+    margin: 0 auto;
+    width: 90%;
+}
+.main_view{
+    width: 20%;
+    height: 25rem;
+    margin-left:80px ;
+    margin-top: 60px;
+    position: absolute;
+
+}
+.main_view img{
+    width: 100%;
+    height: 100%;
+    float: left;
+    object-fit: cover;
+}
+
+.side_view{
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 320px;
+}
+.side_view img{
+    width: 9rem;
+    height: 7rem;
+    object-fit: cover;
+    cursor: pointer;
+    margin:0.5rem;
+}
+#info{
+    margin-left: 600px;
+    position: absolute;
+    margin-top: -340px;
+    background-color: white;
+    padding: 30px 30px 30px 30px;
+}
+#title{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+}
+#price p{
+    display: inline-flex;
+    margin-right: 40px;
+    margin-left: 19px;
+}
+#price{
+    display: inline-block;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 125.02%;
+    color: #359640;
+    background: #E6E6E6;
+    text-align: center;
+    width: 450px;
+    height: 50px;
+    margin-left: 50px;
+    padding: 10px 0px 10px 0px;
+}
+#weight{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    margin-top: 20px;
+    color: #35966C;
+}
+#pricep{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 125.02%;
+    color: #359640;
+    background: #E6E6E6;
+    text-align: center;
+    margin-left: 200px;
+    width: 140px;
+    padding: 10px 0px 10px 0px;
+}
+#classify{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#class{
+    margin-left: 50px;
+    border: 1px solid black;
+    padding: 10px 10px 10px 10px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+}
+#bottom{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 26px;
+}
+#btmdetail{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+}
+#btncontact{
+    color: white;
+    background: #359640;
+    padding: 10px 7px 10px 7px;
+    margin-left: 220px;
+}
+#line{
+    width: 900px;
+    margin-left: 100px;
+}
+.tab {
+    overflow: hidden;
+    border-bottom: 1px solid black;
+    background-color: #f1f1f1;
+    margin-left: 100px;
+    width: 612px;
+    margin-top: 20px;
+
+}
+#tag{
+    width: 514.5px;
+}
+#prostatus{
+    font-weight: bold;
+}
+#licen{
+    margin-left: 80px;
+    border-style: none;
+}
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+.tab button:hover {
+    background-color: #359640;
+    color: white;
+}
+.tab button.active {
+    background-color: #359640;
+    color: white;
+}
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+#tabtag{
+    padding-top: 1px;
+    margin-left: 60px;
+    margin-top: 120px;
+    margin-bottom: 100px;
+    background-color: white;
+}
+#more1{
+    display: none;
+}
+#cate {
+    height: 210px;
+    overflow: auto;
+    margin-left: 80px;
+}
+#overview{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+    margin-left: 100px;
+    border: 1px solid white;
+    line-height: 50px;
+}
+#overviewinfo{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+    margin-left: 30px;
+    display: inline-block;
 }
