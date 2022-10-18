@@ -30,7 +30,7 @@ public class HomeController extends HttpServlet {
             throws ServletException, IOException {
         response.setContentType("text/html;charset=UTF-8");
         try (PrintWriter out = response.getWriter()) {
-            response.sendRedirect("home.jsp");
+            response.sendRedirect("viewsCustomer/home.jsp");
             request.setAttribute("active", "active");
         }
     }

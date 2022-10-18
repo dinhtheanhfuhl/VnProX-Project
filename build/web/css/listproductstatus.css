@@ -35,6 +35,13 @@
     height: 90px;
     margin-left: 88px;
 }
+#actionedit{
+    background-color: white;
+}
+#btntb4{
+    border-style: none;
+    background-color: #F5F5F5;
+}
 #navbar3{
     width:90%;
     float: left;
