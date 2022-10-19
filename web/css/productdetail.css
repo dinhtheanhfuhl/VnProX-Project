@@ -27,6 +27,35 @@
     border-radius: 0;
     position: absolute;
 }
+#prodetailtext{
+    background: #F2F2F2;
+    height: 40px;
+    width: 77%;
+    margin-left: 80px;
+}
+#prodetailtext p{
+    padding-top:10px;
+    padding-left: 10px;
+}
+#prodetailtext1{
+    background: #F2F2F2;
+    height: 40px;
+    width: 84%;
+}
+#prodetailtext1 p{
+    padding-top:10px;
+    padding-left: 10px;
+}
+#edit{
+    background: #646464;
+    border: #E8D426;
+    color: white;
+    height: 40px;
+    margin-top: -70px;
+    margin-left: 650px;
+    border-radius: 0;
+    position: absolute;
+}
 #navbar{
     width:96%;
     float: right;
@@ -50,8 +79,8 @@
 }
 .main_view{
     width: 20%;
-    height: 25rem;
-    margin-left:80px ;
+    height: 24rem;
+    margin-left:5px ;
     margin-top: 60px;
     position: absolute;
 
@@ -67,20 +96,32 @@
     justify-content: center;
     flex-wrap: wrap;
     margin-top: 320px;
+    width: 300px;
 }
 .side_view img{
-    width: 9rem;
-    height: 7rem;
+    width: 12rem;
+    height: 9rem;
     object-fit: cover;
     cursor: pointer;
     margin:0.5rem;
 }
-#info{
-    margin-left: 600px;
+#videopro{
     position: absolute;
-    margin-top: -340px;
+    margin-left: 260px;
+    margin-top: -460px;
+}
+#videopro1{
+    position: absolute;
+    margin-left: 260px;
+    margin-top: -195px;
+}
+#info{
+    margin-left: 650px;
+    position: absolute;
+    margin-top: -460px;
     background-color: white;
     padding: 30px 30px 30px 30px;
+    height: 455px;
 }
 #title{
     font-family: 'Inter';
