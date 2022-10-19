@@ -18,9 +18,9 @@
             <jsp:include page="../common/sidebar.jsp" />
         </div>
         <div id="navbar">
-            <a id="qltext" href="#">Trang chủ</a>
+            <a id="qltext" href="#">Quản lý</a>
             <p id="arrow">></p>
-            <a id="producttext" href="#">Trái cây</a>
+            <a id="producttext" href="#">Sản phẩm</a>
         </div>
         <div class="container" id="container">
             <div class="main_view" >
@@ -31,6 +31,12 @@
                 <img src="https://th.bing.com/th/id/OIP.kwXvW3i95eQk0KCLUwiHuQHaEo?pid=ImgDet&w=800&h=500&rs=1" onclick="change(this.src)">
                 <img src="https://th.bing.com/th/id/R.9198fcbbb8dc8f24fa862d40112e6050?rik=yMu8Aiwdy9mRRg&riu=http%3a%2f%2fsongkhoe24.weebly.com%2fuploads%2f9%2f7%2f2%2f8%2f97284964%2fca-tim-1_orig.jpg&ehk=cESiQSHSIJNmcC0kVV%2bFAXY7s0wvVQRVNDoDBRS%2bkQg%3d&risl=&pid=ImgRaw&r=0&sres=1&sresct=1" onclick="change(this.src)">
                 <img src="https://th.bing.com/th/id/R.7072c3cfe15319d869b6b0b3381cb237?rik=kNpCkbJ84jqAOQ&riu=http%3a%2f%2fsieuthiandam.com%2fwp-content%2fuploads%2f2018%2f03%2f0001895-khoai-lang-600x600.jpg&ehk=DyqYggP0VmiOr9KNbYr2RsENQRs%2fySqP1AbLU1NSJNY%3d&risl=&pid=ImgRaw&r=0" onclick="change(this.src)">
+            </div>
+            <div id="videopro">  
+                <iframe width="320" height="240" src="https://www.youtube.com/embed/7hRpNzvJ4vM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div id="videopro1">  
+                <iframe width="312" height="190" src="https://www.youtube.com/embed/D0QjTtqh5lA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
         </div>
         <div id="info">
