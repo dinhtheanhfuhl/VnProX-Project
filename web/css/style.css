@@ -28,34 +28,13 @@
     border: 2px solid #33cc00;
     color:#33cc00;
 }
-#imagecontent{
-    margin-left: 5px;
-    margin-right: 10px;
-    height: 350px;
-    margin-bottom: 10px;
-    border: 1px solid #ccffcc;
-    border-radius: 0px 20px;
-    cursor: pointer;
-    background: #E1E1E1;
-    width: 100px;
-}
-
 
 #image:hover{
     transition: 0.5s all ease-in-out;
     transform: scale(1.11);
     backface-visibility: hidden;
 }
-#cateprice{
-    color: #359640;
-}
-#fontfruit{
-    font-family: 'Inter';
-    font-style: normal;
-    font-size: 12px;
-    color: #000000;
 
-}
 #introheader{
     font-style: normal;
     font-weight:bold;
@@ -63,24 +42,7 @@
 #introcontent{
     font-size: 20px;
 }
-#location{
-    float: right;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    color: #000000;
-}
 
-#trongluong{
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 10px;
-    line-height: 12px;
-    text-align: center;
-    color: #818181;
-    float: left;
-}
 #fruitcate{
     font-family: 'Inter';
     font-style: normal;
@@ -390,4 +352,61 @@ h3{
     font-style: normal;
     font-weight: 600;
     margin-right: 200px;
+}
+#alltag{
+    width: 170px;
+    background-color: #D9D9D9;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    display: inline-block;
+    border-radius: 0px 20px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+#titleall{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+    padding-left: 6px;
+}
+#imgall{
+   border-radius: 0px 20px;
+}
+#alltag:hover{
+    transition: 0.5s all ease-in-out;
+    transform: scale(1.05);
+    backface-visibility: hidden;
+}
+#priceall{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 12px;
+    color: #359640;
+    padding-left: 6px;
+}
+#weightall{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 10px;
+    color: #818181;
+    float: left;
+    text-align: center;
+    padding-left: 6px;
+}
+#locationall{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    text-align: right;
+    color: #000000;
+    padding-right: 3px;
 }
