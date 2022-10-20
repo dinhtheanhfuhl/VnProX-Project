@@ -464,315 +464,157 @@
 
             <div class="container" id="fruit1">
                 <div id="viewall" style="float: right;">
-                    <a href="#" >Xem tất cả</a></div>
+                    <a href="listproduct.jsp" >Xem tất cả</a></div>
                 <h3 id="fruitcate">HOA QUẢ</h3>
-                <div class="row">
-                    <div id="imagecontent" class="col">
-                        <img id="image" src="https://th.bing.com/th/id/R.9a22862f88e14417afce6f4c715b9cc1?rik=ePlUIAc9BzZEhA&riu=http%3a%2f%2fstreaming1.danviet.vn%2fupload%2f1-2016%2fimages%2f2016-02-26%2f1456486847-vc6.jpg&ehk=Rmb3kj1LW0UALelJlm4d0A0m3N3c5B%2fpmPLVwkYImI0%3d&risl=&pid=ImgRaw&r=0" alt="Italian Trulli">
-                        <p id="fontfruit">RAU MẦM CẢI CỦ TÂN TÂY LAN TN 28 </p>
-                        <p id="cateprice">đ79.000~đ100.000 </p>
-                        <p id="location"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                <div class="features_items">
+                    <div id="alltag">
+                        <img id="imgall" src="https://i.etsystatic.com/26809228/r/il/a75759/2809916329/il_fullxfull.2809916329_9o1f.jpg" class="img-responsive" alt="a" />
+                        <h4 id="titleall">Vải thiều mọng nước, hạt nhỏ, tươi ngọt - V22BU25152</h4>
+                        <p id="priceall" >đ79.000 ~ đ100.000</p>
+                        <p id="weightall">Trọng lượng ước tính <br>3.000kg</p>
+                        <p id="locationall"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
                             <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
-                            </svg>Hà Nội</p>
-                        <div id="trongluong">
-                            <p>Trọng lượng ước tính</p>
-                            <p>3000kg</p>
-                        </div>
-                    </div>
-                    <div id="imagecontent" class="col">
-                        <img id="image" src="https://th.bing.com/th/id/R.9a22862f88e14417afce6f4c715b9cc1?rik=ePlUIAc9BzZEhA&riu=http%3a%2f%2fstreaming1.danviet.vn%2fupload%2f1-2016%2fimages%2f2016-02-26%2f1456486847-vc6.jpg&ehk=Rmb3kj1LW0UALelJlm4d0A0m3N3c5B%2fpmPLVwkYImI0%3d&risl=&pid=ImgRaw&r=0" alt="Italian Trulli">
-                        <p id="fontfruit">RAU MẦM CẢI CỦ TÂN TÂY LAN TN 28 </p>
-                        <p id="cateprice">đ79.000~đ100.000 </p>
-                        <p id="location"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                            </svg>Hà Nội</p></div>
+                    <div id="alltag">
+                        <img id="imgall" src="https://i.etsystatic.com/26809228/r/il/a75759/2809916329/il_fullxfull.2809916329_9o1f.jpg" class="img-responsive" alt="a" />
+                        <h4 id="titleall">Vải thiều mọng nước, hạt nhỏ, tươi ngọt - V22BU25152</h4>
+                        <p id="priceall" >đ79.000 ~ đ100.000</p>
+                        <p id="weightall">Trọng lượng ước tính <br>3.000kg</p>
+                        <p id="locationall"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
                             <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
-                            </svg>Hà Nội</p>
-                        <div id="trongluong">
-                            <p>Trọng lượng ước tính</p>
-                            <p>3000kg</p>
-                        </div>
-                    </div>
-                    <div id="imagecontent" class="col"><img id="image" src="https://www.vietnamesische-rezepte.de/wp-content/uploads/2019/01/Litschi-Qua-Vai.jpg" alt="Italian Trulli">
-                        <p id="fontfruit">RAU MẦM CẢI CỦ TÂN TÂY LAN TN 28 </p>
-                        <p id="cateprice">đ79.000~đ100.000 </p>
-                        <p id="location"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                            </svg>Hà Nội</p></div>
+                    <div id="alltag">
+                        <img id="imgall" src="https://i.etsystatic.com/26809228/r/il/a75759/2809916329/il_fullxfull.2809916329_9o1f.jpg" class="img-responsive" alt="a" />
+                        <h4 id="titleall">Vải thiều mọng nước, hạt nhỏ, tươi ngọt - V22BU25152</h4>
+                        <p id="priceall" >đ79.000 ~ đ100.000</p>
+                        <p id="weightall">Trọng lượng ước tính <br>3.000kg</p>
+                        <p id="locationall"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
                             <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
-                            </svg>Hà Nội</p>
-                        <div id="trongluong">
-                            <p>Trọng lượng ước tính</p>
-                            <p>3000kg</p>
-                        </div>
-                    </div>
-                    <div id="imagecontent" class="col"><img id="image" src="https://th.bing.com/th/id/OIP.vjrix5NttWB_z2B90KpozwHaFS?pid=ImgDet&rs=1" alt="Italian Trulli">
-                        <p id="fontfruit">RAU MẦM CẢI CỦ TÂN TÂY LAN TN 28 </p>
-                        <p id="cateprice">đ79.000~đ100.000 </p>
-                        <p id="location"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                            </svg>Hà Nội</p></div>
+                    <div id="alltag">
+                        <img id="imgall" src="https://i.etsystatic.com/26809228/r/il/a75759/2809916329/il_fullxfull.2809916329_9o1f.jpg" class="img-responsive" alt="a" />
+                        <h4 id="titleall">Vải thiều mọng nước, hạt nhỏ, tươi ngọt - V22BU25152</h4>
+                        <p id="priceall" >đ79.000 ~ đ100.000</p>
+                        <p id="weightall">Trọng lượng ước tính <br>3.000kg</p>
+                        <p id="locationall"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
                             <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
-                            </svg>Hà Nội</p>
-                        <div id="trongluong">
-                            <p>Trọng lượng ước tính</p>
-                            <p>3000kg</p>
-                        </div>
-                    </div>
-                    <div id="imagecontent" class="col"><img id="image" src="https://th.bing.com/th/id/OIP.Bta0i_s1fYXUfKYbwwNrPgHaHa?pid=ImgDet&rs=1" alt="Italian Trulli">
-                        <p id="fontfruit">RAU MẦM CẢI CỦ TÂN TÂY LAN TN 28 </p>
-                        <p id="cateprice">đ79.000~đ100.000 </p>
-                        <p id="location"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                            </svg>Hà Nội</p></div>
+                    <div id="alltag">
+                        <img id="imgall" src="https://i.etsystatic.com/26809228/r/il/a75759/2809916329/il_fullxfull.2809916329_9o1f.jpg" class="img-responsive" alt="a" />
+                        <h4 id="titleall">Vải thiều mọng nước, hạt nhỏ, tươi ngọt - V22BU25152</h4>
+                        <p id="priceall" >đ79.000 ~ đ100.000</p>
+                        <p id="weightall">Trọng lượng ước tính <br>3.000kg</p>
+                        <p id="locationall"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
                             <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
-                            </svg>Hà Nội</p>
-                        <div id="trongluong">
-                            <p>Trọng lượng ước tính</p>
-                            <p>3000kg</p>
-                        </div>
-                    </div>
-
+                            </svg>Hà Nội</p></div>
                 </div>
             </div>
             <div class="container" id="fruit2">
                 <div id="viewall" style="float: right;">
-                    <a href="#" >Xem tất cả</a></div>
+                    <a href="listproduct.jsp" >Xem tất cả</a></div>
                 <h3 id="fruitcate">RAU CỦ</h3>
-                <div class="row">
-                    <div id="imagecontent" class="col">
-                        <img id="image" src="https://th.bing.com/th/id/R.9a22862f88e14417afce6f4c715b9cc1?rik=ePlUIAc9BzZEhA&riu=http%3a%2f%2fstreaming1.danviet.vn%2fupload%2f1-2016%2fimages%2f2016-02-26%2f1456486847-vc6.jpg&ehk=Rmb3kj1LW0UALelJlm4d0A0m3N3c5B%2fpmPLVwkYImI0%3d&risl=&pid=ImgRaw&r=0" alt="Italian Trulli">
-                        <p id="fontfruit">RAU MẦM CẢI CỦ TÂN TÂY LAN TN 28 </p>
-                        <p id="cateprice">đ79.000~đ100.000 </p>
-                        <p id="location"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                <div class="features_items">
+                    <div id="alltag">
+                        <img id="imgall" src="https://i.etsystatic.com/26809228/r/il/a75759/2809916329/il_fullxfull.2809916329_9o1f.jpg" class="img-responsive" alt="a" />
+                        <h4 id="titleall">Vải thiều mọng nước, hạt nhỏ, tươi ngọt - V22BU25152</h4>
+                        <p id="priceall" >đ79.000 ~ đ100.000</p>
+                        <p id="weightall">Trọng lượng ước tính <br>3.000kg</p>
+                        <p id="locationall"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
                             <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
-                            </svg>Hà Nội</p>
-                        <div id="trongluong">
-                            <p>Trọng lượng ước tính</p>
-                            <p>3000kg</p>
-                        </div>
-                    </div>
-                    <div id="imagecontent" class="col">
-                        <img id="image" src="https://th.bing.com/th/id/R.9a22862f88e14417afce6f4c715b9cc1?rik=ePlUIAc9BzZEhA&riu=http%3a%2f%2fstreaming1.danviet.vn%2fupload%2f1-2016%2fimages%2f2016-02-26%2f1456486847-vc6.jpg&ehk=Rmb3kj1LW0UALelJlm4d0A0m3N3c5B%2fpmPLVwkYImI0%3d&risl=&pid=ImgRaw&r=0" alt="Italian Trulli">
-                        <p id="fontfruit">RAU MẦM CẢI CỦ TÂN TÂY LAN TN 28 </p>
-                        <p id="cateprice">đ79.000~đ100.000 </p>
-                        <p id="location"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                            </svg>Hà Nội</p></div>
+                    <div id="alltag">
+                        <img id="imgall" src="https://i.etsystatic.com/26809228/r/il/a75759/2809916329/il_fullxfull.2809916329_9o1f.jpg" class="img-responsive" alt="a" />
+                        <h4 id="titleall">Vải thiều mọng nước, hạt nhỏ, tươi ngọt - V22BU25152</h4>
+                        <p id="priceall" >đ79.000 ~ đ100.000</p>
+                        <p id="weightall">Trọng lượng ước tính <br>3.000kg</p>
+                        <p id="locationall"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
                             <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
-                            </svg>Hà Nội</p>
-                        <div id="trongluong">
-                            <p>Trọng lượng ước tính</p>
-                            <p>3000kg</p>
-                        </div>
-                    </div>
-                    <div id="imagecontent" class="col"><img id="image" src="https://www.vietnamesische-rezepte.de/wp-content/uploads/2019/01/Litschi-Qua-Vai.jpg" alt="Italian Trulli">
-                        <p id="fontfruit">RAU MẦM CẢI CỦ TÂN TÂY LAN TN 28 </p>
-                        <p id="cateprice">đ79.000~đ100.000 </p>
-                        <p id="location"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                            </svg>Hà Nội</p></div>
+                    <div id="alltag">
+                        <img id="imgall" src="https://i.etsystatic.com/26809228/r/il/a75759/2809916329/il_fullxfull.2809916329_9o1f.jpg" class="img-responsive" alt="a" />
+                        <h4 id="titleall">Vải thiều mọng nước, hạt nhỏ, tươi ngọt - V22BU25152</h4>
+                        <p id="priceall" >đ79.000 ~ đ100.000</p>
+                        <p id="weightall">Trọng lượng ước tính <br>3.000kg</p>
+                        <p id="locationall"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
                             <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
-                            </svg>Hà Nội</p>
-                        <div id="trongluong">
-                            <p>Trọng lượng ước tính</p>
-                            <p>3000kg</p>
-                        </div>
-                    </div>
-                    <div id="imagecontent" class="col"><img id="image" src="https://th.bing.com/th/id/OIP.vjrix5NttWB_z2B90KpozwHaFS?pid=ImgDet&rs=1" alt="Italian Trulli">
-                        <p id="fontfruit">RAU MẦM CẢI CỦ TÂN TÂY LAN TN 28 </p>
-                        <p id="cateprice">đ79.000~đ100.000 </p>
-                        <p id="location"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                            </svg>Hà Nội</p></div>
+                    <div id="alltag">
+                        <img id="imgall" src="https://i.etsystatic.com/26809228/r/il/a75759/2809916329/il_fullxfull.2809916329_9o1f.jpg" class="img-responsive" alt="a" />
+                        <h4 id="titleall">Vải thiều mọng nước, hạt nhỏ, tươi ngọt - V22BU25152</h4>
+                        <p id="priceall" >đ79.000 ~ đ100.000</p>
+                        <p id="weightall">Trọng lượng ước tính <br>3.000kg</p>
+                        <p id="locationall"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
                             <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
-                            </svg>Hà Nội</p>
-                        <div id="trongluong">
-                            <p>Trọng lượng ước tính</p>
-                            <p>3000kg</p>
-                        </div>
-                    </div>
-                    <div id="imagecontent" class="col"><img id="image" src="https://th.bing.com/th/id/OIP.Bta0i_s1fYXUfKYbwwNrPgHaHa?pid=ImgDet&rs=1" alt="Italian Trulli">
-                        <p id="fontfruit">RAU MẦM CẢI CỦ TÂN TÂY LAN TN 28 </p>
-                        <p id="cateprice">đ79.000~đ100.000 </p>
-                        <p id="location"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                            </svg>Hà Nội</p></div>
+                    <div id="alltag">
+                        <img id="imgall" src="https://i.etsystatic.com/26809228/r/il/a75759/2809916329/il_fullxfull.2809916329_9o1f.jpg" class="img-responsive" alt="a" />
+                        <h4 id="titleall">Vải thiều mọng nước, hạt nhỏ, tươi ngọt - V22BU25152</h4>
+                        <p id="priceall" >đ79.000 ~ đ100.000</p>
+                        <p id="weightall">Trọng lượng ước tính <br>3.000kg</p>
+                        <p id="locationall"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
                             <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
-                            </svg>Hà Nội</p>
-                        <div id="trongluong">
-                            <p>Trọng lượng ước tính</p>
-                            <p>3000kg</p>
-                        </div>
-                    </div>
+                            </svg>Hà Nội</p></div>
                 </div>
             </div>
             <div class="container" id="fruit3">
                 <div id="viewall" style="float: right;">
-                    <a href="#" >Xem tất cả</a></div>
+                    <a href="listproduct.jsp" >Xem tất cả</a></div>
                 <h3 id="fruitcate1">TẤT CẢ NÔNG SẢN</h3>
-                <div class="row">
-                    <div id="imagecontent" class="col">
-                        <img id="image" src="https://th.bing.com/th/id/R.9a22862f88e14417afce6f4c715b9cc1?rik=ePlUIAc9BzZEhA&riu=http%3a%2f%2fstreaming1.danviet.vn%2fupload%2f1-2016%2fimages%2f2016-02-26%2f1456486847-vc6.jpg&ehk=Rmb3kj1LW0UALelJlm4d0A0m3N3c5B%2fpmPLVwkYImI0%3d&risl=&pid=ImgRaw&r=0" alt="Italian Trulli">
-                        <p id="fontfruit">RAU MẦM CẢI CỦ TÂN TÂY LAN TN 28 </p>
-                        <p id="cateprice">đ79.000~đ100.000 </p>
-                        <p id="location"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                <div class="features_items">
+                    <div id="alltag">
+                        <img id="imgall" src="https://i.etsystatic.com/26809228/r/il/a75759/2809916329/il_fullxfull.2809916329_9o1f.jpg" class="img-responsive" alt="a" />
+                        <h4 id="titleall">Vải thiều mọng nước, hạt nhỏ, tươi ngọt - V22BU25152</h4>
+                        <p id="priceall" >đ79.000 ~ đ100.000</p>
+                        <p id="weightall">Trọng lượng ước tính <br>3.000kg</p>
+                        <p id="locationall"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
                             <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
-                            </svg>Hà Nội</p>
-                        <div id="trongluong">
-                            <p>Trọng lượng ước tính</p>
-                            <p>3000kg</p>
-                        </div>
-                    </div>
-                    <div id="imagecontent" class="col">
-                        <img id="image" src="https://th.bing.com/th/id/R.9a22862f88e14417afce6f4c715b9cc1?rik=ePlUIAc9BzZEhA&riu=http%3a%2f%2fstreaming1.danviet.vn%2fupload%2f1-2016%2fimages%2f2016-02-26%2f1456486847-vc6.jpg&ehk=Rmb3kj1LW0UALelJlm4d0A0m3N3c5B%2fpmPLVwkYImI0%3d&risl=&pid=ImgRaw&r=0" alt="Italian Trulli">
-                        <p id="fontfruit">RAU MẦM CẢI CỦ TÂN TÂY LAN TN 28 </p>
-                        <p id="cateprice">đ79.000~đ100.000 </p>
-                        <p id="location"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                            </svg>Hà Nội</p></div>
+                    <div id="alltag">
+                        <img src="https://i.etsystatic.com/26809228/r/il/a75759/2809916329/il_fullxfull.2809916329_9o1f.jpg" class="img-responsive" alt="a" />
+                        <h4 id="titleall">Vải thiều mọng nước, hạt nhỏ, tươi ngọt - V22BU25152</h4>
+                        <p id="priceall" >đ79.000 ~ đ100.000</p>
+                        <p id="weightall">Trọng lượng ước tính <br>3.000kg</p>
+                        <p id="locationall"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
                             <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
-                            </svg>Hà Nội</p>
-                        <div id="trongluong">
-                            <p>Trọng lượng ước tính</p>
-                            <p>3000kg</p>
-                        </div>
-                    </div>
-                    <div id="imagecontent" class="col"><img id="image" src="https://www.vietnamesische-rezepte.de/wp-content/uploads/2019/01/Litschi-Qua-Vai.jpg" alt="Italian Trulli">
-                        <p id="fontfruit">RAU MẦM CẢI CỦ TÂN TÂY LAN TN 28 </p>
-                        <p id="cateprice">đ79.000~đ100.000 </p>
-                        <p id="location"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                            </svg>Hà Nội</p></div>
+                    <div id="alltag">
+                        <img src="https://i.etsystatic.com/26809228/r/il/a75759/2809916329/il_fullxfull.2809916329_9o1f.jpg" class="img-responsive" alt="a" />
+                        <h4 id="titleall">Vải thiều mọng nước, hạt nhỏ, tươi ngọt - V22BU25152</h4>
+                        <p id="priceall" >đ79.000 ~ đ100.000</p>
+                        <p id="weightall">Trọng lượng ước tính <br>3.000kg</p>
+                        <p id="locationall"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
                             <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
-                            </svg>Hà Nội</p>
-                        <div id="trongluong">
-                            <p>Trọng lượng ước tính</p>
-                            <p>3000kg</p>
-                        </div>
-                    </div>
-                    <div id="imagecontent" class="col"><img id="image" src="https://th.bing.com/th/id/OIP.vjrix5NttWB_z2B90KpozwHaFS?pid=ImgDet&rs=1" alt="Italian Trulli">
-                        <p id="fontfruit">RAU MẦM CẢI CỦ TÂN TÂY LAN TN 28 </p>
-                        <p id="cateprice">đ79.000~đ100.000 </p>
-                        <p id="location"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                            </svg>Hà Nội</p></div>
+                    <div id="alltag">
+                        <img src="https://i.etsystatic.com/26809228/r/il/a75759/2809916329/il_fullxfull.2809916329_9o1f.jpg" class="img-responsive" alt="a" />
+                        <h4 id="titleall">Vải thiều mọng nước, hạt nhỏ, tươi ngọt - V22BU25152</h4>
+                        <p id="priceall" >đ79.000 ~ đ100.000</p>
+                        <p id="weightall">Trọng lượng ước tính <br>3.000kg</p>
+                        <p id="locationall"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
                             <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
-                            </svg>Hà Nội</p>
-                        <div id="trongluong">
-                            <p>Trọng lượng ước tính</p>
-                            <p>3000kg</p>
-                        </div>
-                    </div>
-                    <div id="imagecontent" class="col"><img id="image" src="https://th.bing.com/th/id/OIP.Bta0i_s1fYXUfKYbwwNrPgHaHa?pid=ImgDet&rs=1" alt="Italian Trulli">
-                        <p id="fontfruit">RAU MẦM CẢI CỦ TÂN TÂY LAN TN 28 </p>
-                        <p id="cateprice">đ79.000~đ100.000 </p>
-                        <p id="location"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                            </svg>Hà Nội</p></div>
+                    <div id="alltag">
+                        <img src="https://i.etsystatic.com/26809228/r/il/a75759/2809916329/il_fullxfull.2809916329_9o1f.jpg" class="img-responsive" alt="a" />
+                        <h4 id="titleall">Vải thiều mọng nước, hạt nhỏ, tươi ngọt - V22BU25152</h4>
+                        <p id="priceall" >đ79.000 ~ đ100.000</p>
+                        <p id="weightall">Trọng lượng ước tính <br>3.000kg</p>
+                        <p id="locationall"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
                             <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
-                            </svg>Hà Nội</p>
-                        <div id="trongluong">
-                            <p>Trọng lượng ước tính</p>
-                            <p>3000kg</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div id="imagecontent" class="col">
-                        <img id="image" src="https://th.bing.com/th/id/R.9a22862f88e14417afce6f4c715b9cc1?rik=ePlUIAc9BzZEhA&riu=http%3a%2f%2fstreaming1.danviet.vn%2fupload%2f1-2016%2fimages%2f2016-02-26%2f1456486847-vc6.jpg&ehk=Rmb3kj1LW0UALelJlm4d0A0m3N3c5B%2fpmPLVwkYImI0%3d&risl=&pid=ImgRaw&r=0" alt="Italian Trulli">
-                        <p id="fontfruit">RAU MẦM CẢI CỦ TÂN TÂY LAN TN 28 </p>
-                        <p id="cateprice">đ79.000~đ100.000 </p>
-                        <p id="location"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                            </svg>Hà Nội</p></div>
+                    <div id="alltag">
+                        <img src="https://i.etsystatic.com/26809228/r/il/a75759/2809916329/il_fullxfull.2809916329_9o1f.jpg" class="img-responsive" alt="a" />
+                        <h4 id="titleall">Vải thiều mọng nước, hạt nhỏ, tươi ngọt - V22BU25152</h4>
+                        <p id="priceall" >đ79.000 ~ đ100.000</p>
+                        <p id="weightall">Trọng lượng ước tính <br>3.000kg</p>
+                        <p id="locationall"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
                             <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
-                            </svg>Hà Nội</p>
-                        <div id="trongluong">
-                            <p>Trọng lượng ước tính</p>
-                            <p>3000kg</p>
-                        </div>
-                    </div>
-                    <div id="imagecontent" class="col">
-                        <img id="image" src="https://th.bing.com/th/id/R.9a22862f88e14417afce6f4c715b9cc1?rik=ePlUIAc9BzZEhA&riu=http%3a%2f%2fstreaming1.danviet.vn%2fupload%2f1-2016%2fimages%2f2016-02-26%2f1456486847-vc6.jpg&ehk=Rmb3kj1LW0UALelJlm4d0A0m3N3c5B%2fpmPLVwkYImI0%3d&risl=&pid=ImgRaw&r=0" alt="Italian Trulli">
-                        <p id="fontfruit">RAU MẦM CẢI CỦ TÂN TÂY LAN TN 28 </p>
-                        <p id="cateprice">đ79.000~đ100.000 </p>
-                        <p id="location"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
-                            <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
-                            </svg>Hà Nội</p>
-                        <div id="trongluong">
-                            <p>Trọng lượng ước tính</p>
-                            <p>3000kg</p>
-                        </div>
-                    </div>
-                    <div id="imagecontent" class="col"><img id="image" src="https://www.vietnamesische-rezepte.de/wp-content/uploads/2019/01/Litschi-Qua-Vai.jpg" alt="Italian Trulli">
-                        <p id="fontfruit">RAU MẦM CẢI CỦ TÂN TÂY LAN TN 28 </p>
-                        <p id="cateprice">đ79.000~đ100.000 </p>
-                        <p id="location"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
-                            <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
-                            </svg>Hà Nội</p>
-                        <div id="trongluong">
-                            <p>Trọng lượng ước tính</p>
-                            <p>3000kg</p>
-                        </div>
-                    </div>
-                    <div id="imagecontent" class="col"><img id="image" src="https://th.bing.com/th/id/OIP.vjrix5NttWB_z2B90KpozwHaFS?pid=ImgDet&rs=1" alt="Italian Trulli">
-                        <p id="fontfruit">RAU MẦM CẢI CỦ TÂN TÂY LAN TN 28 </p>
-                        <p id="cateprice">đ79.000~đ100.000 </p>
-                        <p id="location"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
-                            <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
-                            </svg>Hà Nội</p>
-                        <div id="trongluong">
-                            <p>Trọng lượng ước tính</p>
-                            <p>3000kg</p>
-                        </div>
-                    </div>
-                    <div id="imagecontent" class="col"><img id="image" src="https://th.bing.com/th/id/OIP.Bta0i_s1fYXUfKYbwwNrPgHaHa?pid=ImgDet&rs=1" alt="Italian Trulli">
-                        <p id="fontfruit">RAU MẦM CẢI CỦ TÂN TÂY LAN TN 28 </p>
-                        <p id="cateprice">đ79.000~đ100.000 </p>
-                        <p id="location"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
-                            <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
-                            </svg>Hà Nội</p>
-                        <div id="trongluong">
-                            <p>Trọng lượng ước tính</p>
-                            <p>3000kg</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div id="imagecontent" class="col">
-                        <img id="image" src="https://th.bing.com/th/id/R.9a22862f88e14417afce6f4c715b9cc1?rik=ePlUIAc9BzZEhA&riu=http%3a%2f%2fstreaming1.danviet.vn%2fupload%2f1-2016%2fimages%2f2016-02-26%2f1456486847-vc6.jpg&ehk=Rmb3kj1LW0UALelJlm4d0A0m3N3c5B%2fpmPLVwkYImI0%3d&risl=&pid=ImgRaw&r=0" alt="Italian Trulli">
-                        <p id="fontfruit">RAU MẦM CẢI CỦ TÂN TÂY LAN TN 28 </p>
-                        <p id="cateprice">đ79.000~đ100.000 </p>
-                        <p id="location"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
-                            <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
-                            </svg>Hà Nội</p>
-                        <div id="trongluong">
-                            <p>Trọng lượng ước tính</p>
-                            <p>3000kg</p>
-                        </div>
-                    </div>
-                    <div id="imagecontent" class="col">
-                        <img id="image" src="https://th.bing.com/th/id/R.9a22862f88e14417afce6f4c715b9cc1?rik=ePlUIAc9BzZEhA&riu=http%3a%2f%2fstreaming1.danviet.vn%2fupload%2f1-2016%2fimages%2f2016-02-26%2f1456486847-vc6.jpg&ehk=Rmb3kj1LW0UALelJlm4d0A0m3N3c5B%2fpmPLVwkYImI0%3d&risl=&pid=ImgRaw&r=0" alt="Italian Trulli">
-                        <p id="fontfruit">RAU MẦM CẢI CỦ TÂN TÂY LAN TN 28 </p>
-                        <p id="cateprice">đ79.000~đ100.000 </p>
-                        <p id="location"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
-                            <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
-                            </svg>Hà Nội</p>
-                        <div id="trongluong">
-                            <p>Trọng lượng ước tính</p>
-                            <p>3000kg</p>
-                        </div>
-                    </div>
-                    <div id="imagecontent" class="col"><img id="image" src="https://www.vietnamesische-rezepte.de/wp-content/uploads/2019/01/Litschi-Qua-Vai.jpg" alt="Italian Trulli">
-                        <p id="fontfruit">RAU MẦM CẢI CỦ TÂN TÂY LAN TN 28 </p>
-                        <p id="cateprice">đ79.000~đ100.000 </p>
-                        <p id="location"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
-                            <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
-                            </svg>Hà Nội</p>
-                        <div id="trongluong">
-                            <p>Trọng lượng ước tính</p>
-                            <p>3000kg</p>
-                        </div>
-                    </div>
-                    <div id="imagecontent" class="col"><img id="image" src="https://th.bing.com/th/id/OIP.vjrix5NttWB_z2B90KpozwHaFS?pid=ImgDet&rs=1" alt="Italian Trulli">
-                        <p id="fontfruit">RAU MẦM CẢI CỦ TÂN TÂY LAN TN 28 </p>
-                        <p id="cateprice">đ79.000~đ100.000 </p>
-                        <p id="location"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
-                            <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
-                            </svg>Hà Nội</p>
-                        <div id="trongluong">
-                            <p>Trọng lượng ước tính</p>
-                            <p>3000kg</p>
-                        </div>
-                    </div>
-                    <div id="imagecontent" class="col"><img id="image" src="https://th.bing.com/th/id/OIP.Bta0i_s1fYXUfKYbwwNrPgHaHa?pid=ImgDet&rs=1" alt="Italian Trulli">
-                        <p id="fontfruit">RAU MẦM CẢI CỦ TÂN TÂY LAN TN 28 </p>
-                        <p id="cateprice">đ79.000~đ100.000 </p>
-                        <p id="location"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
-                            <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
-                            </svg>Hà Nội</p>
-                        <div id="trongluong">
-                            <p>Trọng lượng ước tính</p>
-                            <p>3000kg</p>
-                        </div>
-                    </div>
+                            </svg>Hà Nội</p></div>
                 </div>
             </div>
+
+
+
         </div>
-    </body>
+    </div>
+</body>
 </html>
