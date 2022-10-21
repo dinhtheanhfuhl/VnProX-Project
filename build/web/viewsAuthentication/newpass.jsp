@@ -11,8 +11,8 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Mật khẩu mới</title>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">  
-        <link href="../css/forgetpass.css" rel="stylesheet" type="text/css"/>
-        <link href="../css/newpass.css" rel="stylesheet" type="text/css"/>
+        <link href="${pageContext.request.contextPath}/css/forgetpass.css" rel="stylesheet" type="text/css"/>
+        <link href="${pageContext.request.contextPath}/css/newpass.css" rel="stylesheet" type="text/css"/>
     </head>
     <body id="bg">
         <div id="header">
