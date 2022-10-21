@@ -10,7 +10,7 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Tạo sản phẩm mới</title>
-        <link href="../css/createproduct.css" rel="stylesheet" type="text/css"/>
+        <link href="${pageContext.request.contextPath}/css/createproduct.css" rel="stylesheet" type="text/css"/>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">  
     </head>
     <body id="bgpage">

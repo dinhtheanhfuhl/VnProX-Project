@@ -10,7 +10,7 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Thông tin tài khoản</title> 
-        <link href="../css/accountinfo.css" rel="stylesheet" type="text/css"/>
+        <link href="${pageContext.request.contextPath}/css/accountinfo.css" rel="stylesheet" type="text/css"/>
     </head>
     <body id="bgpage">
         <div id="header">

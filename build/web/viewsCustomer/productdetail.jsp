@@ -9,7 +9,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link href="../css/productdetail.css" rel="stylesheet" type="text/css"/>
+        <link href="${pageContext.request.contextPath}/css/productdetail.css" rel="stylesheet" type="text/css"/>
         <title>Chi tiết sản phẩm</title>
     </head>
     <body id="bgpage">

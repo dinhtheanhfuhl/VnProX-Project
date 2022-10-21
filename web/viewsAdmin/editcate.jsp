@@ -10,8 +10,8 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Chỉnh sửa danh mục sản phẩm</title>
-        <link href="../css/listproductstatus.css" rel="stylesheet" type="text/css"/>
-        <link href="../css/managecate.css" rel="stylesheet" type="text/css"/>
+        <link href="${pageContext.request.contextPath}/css/listproductstatus.css" rel="stylesheet" type="text/css"/>
+        <link href="${pageContext.request.contextPath}/css/managecate.css" rel="stylesheet" type="text/css"/>
     </head>
     <body id="bg">
         <jsp:include page="../common/header2.jsp" />

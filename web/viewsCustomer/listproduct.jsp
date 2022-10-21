@@ -10,7 +10,7 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Chi tiết nông sản</title>
-        <link href="../css/listproduct.css" rel="stylesheet" type="text/css"/>
+        <link href="${pageContext.request.contextPath}/css/listproduct.css" rel="stylesheet" type="text/css"/>
     </head>
     <body id="bg">
         <jsp:include page="../common/header.jsp" />

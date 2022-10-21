@@ -11,7 +11,7 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Đăng ký</title>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">  
-        <link href="../css/register.css" rel="stylesheet" type="text/css"/>
+        <link href="${pageContext.request.contextPath}/css/register.css" rel="stylesheet" type="text/css"/>
     </head>
     <body>
         <img src="../image/pexels-pineapple-supply-co-139259.jpg" height="100%" width="100%" alt=""/>  
