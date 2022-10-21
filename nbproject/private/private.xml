@@ -11,6 +11,20 @@
         </file>
     </editor-bookmarks>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
-        <group/>
+        <group>
+            <file>file:/C:/Users/DEKUPAC/VnProX-Project/web/viewsCustomer/productdetail.jsp</file>
+            <file>file:/C:/Users/DEKUPAC/VnProX-Project/src/java/entity/Product.java</file>
+            <file>file:/C:/Users/DEKUPAC/VnProX-Project/web/viewsCustomer/home.jsp</file>
+            <file>file:/C:/Users/DEKUPAC/VnProX-Project/web/common/header.jsp</file>
+            <file>file:/C:/Users/DEKUPAC/VnProX-Project/web/viewsCustomer/content.jsp</file>
+            <file>file:/C:/Users/DEKUPAC/VnProX-Project/web/viewsCustomer/listproduct.jsp</file>
+            <file>file:/C:/Users/DEKUPAC/VnProX-Project/web/viewsAuthentication/login.jsp</file>
+            <file>file:/C:/Users/DEKUPAC/VnProX-Project/src/java/entity/Category.java</file>
+            <file>file:/C:/Users/DEKUPAC/VnProX-Project/src/java/dao/ProductDAO.java</file>
+            <file>file:/C:/Users/DEKUPAC/VnProX-Project/web/common/sidebar.jsp</file>
+            <file>file:/C:/Users/DEKUPAC/VnProX-Project/web/common/header2.jsp</file>
+            <file>file:/C:/Users/DEKUPAC/VnProX-Project/src/java/controller/LogginController.java</file>
+            <file>file:/C:/Users/DEKUPAC/VnProX-Project/src/java/controller/HomeController.java</file>
+        </group>
     </open-files>
 </project-private>

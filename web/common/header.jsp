@@ -3,7 +3,7 @@
     Created on : Sep 26, 2022, 10:36:09 PM
     Author     : ductd
 --%>
-
+<%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
@@ -41,7 +41,16 @@
                                 </svg>
                             </button>
                             <div id="dropdowncont" class="dropdown-content">
-                                <a href="login.jsp">Đăng nhập</a>
+                                <c:choose>
+                                    <c:when test="${sessionScope.email != null}">
+                                        <a href="#">${sessionScope.email}</a>
+                                        <a href="#">Đăng xuất</a>
+                                    </c:when>
+                                    <c:otherwise>
+                                        <a href="${pageContext.request.contextPath}/LogginController">Đăng nhập</a>
+                                    </c:otherwise>
+                                </c:choose>
+                                
                                 <a href="register.jsp">Đăng ký tài khoản</a>
                             </div>
                         </div>
