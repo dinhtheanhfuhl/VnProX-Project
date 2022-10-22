@@ -27,6 +27,7 @@ public class Product {
     private double maxPrice;
     private double minPrice;
     private String cityName;
+    private String mainImgPath;
 
     public Product() {
     }
@@ -47,6 +48,14 @@ public class Product {
         this.packing = packing;
         this.element = element;
         this.statusId = statusId;
+    }
+
+    public String getMainImgPath() {
+        return mainImgPath;
+    }
+
+    public void setMainImgPath(String mainImgPath) {
+        this.mainImgPath = mainImgPath;
     }
 
     public double getMaxPrice() {

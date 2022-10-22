@@ -288,7 +288,7 @@
                                     <div class="col-sm-3">
                                         <div class="col-item" >
                                             <div class="photo">
-                                                <img src="https://i.etsystatic.com/26809228/r/il/a75759/2809916329/il_fullxfull.2809916329_9o1f.jpg" class="img-responsive" alt="a" />
+                                                <img src="${product.mainImgPath}" class="img-responsive" alt="a" />
                                             </div>
                                             <div class="info">
                                                 <div class="row">
@@ -345,7 +345,7 @@
                     <div class="features_items">
                         <c:forEach var="product" items="${mapProduct.get(key)}" >
                             <div id="alltag">
-                                <img id="imgall" src="https://i.etsystatic.com/26809228/r/il/a75759/2809916329/il_fullxfull.2809916329_9o1f.jpg" class="img-responsive" alt="a" />
+                                <img id="imgall" src="${product.mainImgPath}" class="img-responsive" alt="a" />
                                 <h4 id="titleall">${product.productName}</h4>
                                 <p id="priceall" >${product.minPrice} ~ ${product.maxPrice}</p>
                                 <p id="weightall">Trọng lượng ước tính <br>${product.weight}</p>
@@ -364,7 +364,7 @@
                 <div class="features_items">
                     <c:forEach var="product" items="${requestScope.allProducts}" >
                         <div id="alltag">
-                            <img src="https://i.etsystatic.com/26809228/r/il/a75759/2809916329/il_fullxfull.2809916329_9o1f.jpg" class="img-responsive" alt="a" />
+                            <img src="${product.mainImgPath}" class="img-responsive" alt="a" />
                             <h4 id="titleall">${product.productName}</h4>
                             <p id="priceall" >${product.minPrice} ~ ${product.maxPrice}</p>
                             <p id="weightall">Trọng lượng ước tính <br>${product.weight}</p>
@@ -375,9 +375,6 @@
                     </c:forEach>
                 </div>
             </div>
-
-
-
         </div>
     </div>
 </body>
