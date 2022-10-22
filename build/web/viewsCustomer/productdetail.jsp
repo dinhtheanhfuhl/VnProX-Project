@@ -32,6 +32,12 @@
                 <img src="https://th.bing.com/th/id/R.7072c3cfe15319d869b6b0b3381cb237?rik=kNpCkbJ84jqAOQ&riu=http%3a%2f%2fsieuthiandam.com%2fwp-content%2fuploads%2f2018%2f03%2f0001895-khoai-lang-600x600.jpg&ehk=DyqYggP0VmiOr9KNbYr2RsENQRs%2fySqP1AbLU1NSJNY%3d&risl=&pid=ImgRaw&r=0" onclick="change(this.src)">
                 <img src="https://th.bing.com/th/id/R.de5ba437637516bcee252262521bb143?rik=f%2fig1KJJPLkx%2bw&pid=ImgRaw&r=0" onclick="change(this.src)">
             </div>
+            <div id="videopro">  
+                <iframe width="320" height="240" src="https://www.youtube.com/embed/1GRXx_n4nok" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div id="videopro1">  
+                <iframe width="312" height="190" src="https://www.youtube.com/embed/1GRXx_n4nok" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
         </div>
         <div id="info">
             <p id="title">

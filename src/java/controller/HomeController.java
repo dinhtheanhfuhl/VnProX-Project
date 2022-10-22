@@ -31,7 +31,7 @@ public class HomeController extends HttpServlet {
         response.setContentType("text/html;charset=UTF-8");
         try (PrintWriter out = response.getWriter()) {
             //response.sendRedirect("viewsCustomer/home.jsp");
-            request.getRequestDispatcher("viewsCustomer/home.jsp").forward(request, response);
+            request.getRequestDispatcher("viewsCustomer/productdetail.jsp").forward(request, response);
             
         }
     }
