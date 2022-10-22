@@ -42,8 +42,8 @@
                             </button>
                             <div id="dropdowncont" class="dropdown-content">
                                 <c:choose>
-                                    <c:when test="${sessionScope.email != null}">
-                                        <a href="#">${sessionScope.email}</a>
+                                    <c:when test="${sessionScope.account != null}">
+                                        <a href="#">${sessionScope.account.email}</a>
                                         <a href="#">Đăng xuất</a>
                                     </c:when>
                                     <c:otherwise>

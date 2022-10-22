@@ -44,6 +44,8 @@ public class LogginController extends HttpServlet {
         Cookie cookieEmail = new Cookie("email", email);
         Cookie cookiePass = new Cookie("pass", pass);
         if (account != null) {
+            HttpSession session = req.getSession();
+            session.setAttribute("account", account);
             if (rememberMe != null) {
                 cookieEmail.setMaxAge(60 * 60 * 12);
                 cookiePass.setMaxAge(60 * 60 * 12);
@@ -53,8 +55,6 @@ public class LogginController extends HttpServlet {
             }
             resp.addCookie(cookieEmail);
             resp.addCookie(cookiePass);
-            HttpSession session = req.getSession();
-            session.setAttribute("account", account);
             req.getRequestDispatcher("/HomeController").forward(req, resp);
 
         }

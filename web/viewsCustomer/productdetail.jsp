@@ -26,6 +26,7 @@
             <div class="main_view" >
                 <img src="https://th.bing.com/th/id/OIP.kwXvW3i95eQk0KCLUwiHuQHaEo?pid=ImgDet&w=800&h=500&rs=1" id="main1">
             </div>
+
             <div class="side_view">
                 <img src="https://th.bing.com/th/id/OIP.kwXvW3i95eQk0KCLUwiHuQHaEo?pid=ImgDet&w=800&h=500&rs=1" onclick="change(this.src)">
                 <img src="https://th.bing.com/th/id/R.9198fcbbb8dc8f24fa862d40112e6050?rik=yMu8Aiwdy9mRRg&riu=http%3a%2f%2fsongkhoe24.weebly.com%2fuploads%2f9%2f7%2f2%2f8%2f97284964%2fca-tim-1_orig.jpg&ehk=cESiQSHSIJNmcC0kVV%2bFAXY7s0wvVQRVNDoDBRS%2bkQg%3d&risl=&pid=ImgRaw&r=0&sres=1&sresct=1" onclick="change(this.src)">

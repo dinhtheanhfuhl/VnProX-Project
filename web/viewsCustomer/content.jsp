@@ -309,27 +309,27 @@
                         <div class="item">
                             <div class="row">
                                 <c:forEach begin="1" end="4">
-                                <div class="col-sm-3">
-                                    <div class="col-item">
-                                        <div class="photo">
-                                            <img src="https://i.etsystatic.com/26809228/r/il/a75759/2809916329/il_fullxfull.2809916329_9o1f.jpg" class="img-responsive" alt="a" />
-                                        </div>
-                                        <div class="info">
-                                            <div class="row">
-                                                <h5>
-                                                    Rau toàn thuốc cỏ đông anh ngon vừa thế giới này</h5>
-                                                <h5 class="price-text-color">
-                                                    đ99.000~đ120.000</h5>
-
+                                    <div class="col-sm-3">
+                                        <div class="col-item">
+                                            <div class="photo">
+                                                <img src="https://i.etsystatic.com/26809228/r/il/a75759/2809916329/il_fullxfull.2809916329_9o1f.jpg" class="img-responsive" alt="a" />
                                             </div>
-                                            <p class="btn-details"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
-                                                <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
-                                                </svg> Hà nội</p>
-                                            <div class="clearfix">
+                                            <div class="info">
+                                                <div class="row">
+                                                    <h5>
+                                                        Rau toàn thuốc cỏ đông anh ngon vừa thế giới này</h5>
+                                                    <h5 class="price-text-color">
+                                                        đ99.000~đ120.000</h5>
+
+                                                </div>
+                                                <p class="btn-details"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                                                    <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
+                                                    </svg> Hà nội</p>
+                                                <div class="clearfix">
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
                                 </c:forEach>
                             </div>
                         </div>
@@ -363,15 +363,17 @@
                 <h3 id="fruitcate1">TẤT CẢ NÔNG SẢN</h3>
                 <div class="features_items">
                     <c:forEach var="product" items="${requestScope.allProducts}" >
-                        <div id="alltag">
-                            <img src="${product.mainImgPath}" class="img-responsive" alt="a" />
-                            <h4 id="titleall">${product.productName}</h4>
-                            <p id="priceall" >${product.minPrice} ~ ${product.maxPrice}</p>
-                            <p id="weightall">Trọng lượng ước tính <br>${product.weight}</p>
-                            <p id="locationall"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
-                                <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
-                                </svg>${product.cityName}</p>
-                        </div>
+                        <a href="${pageContext.request.contextPath}/DetailProductController?producId=${product.productId}">
+                            <div id="alltag">
+                                <img src="${product.mainImgPath}" class="img-responsive" alt="a" />
+                                <h4 id="titleall">${product.productName}</h4>
+                                <p id="priceall" >${product.minPrice} ~ ${product.maxPrice}</p>
+                                <p id="weightall">Trọng lượng ước tính <br>${product.weight}</p>
+                                <p id="locationall"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                                    <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
+                                    </svg>${product.cityName}</p>
+                            </div>
+                        </a>
                     </c:forEach>
                 </div>
             </div>
