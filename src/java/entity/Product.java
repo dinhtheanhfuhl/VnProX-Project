@@ -24,6 +24,9 @@ public class Product {
     private String packing;
     private String element;
     private int statusId;
+    private double maxPrice;
+    private double minPrice;
+    private String cityName;
 
     public Product() {
     }
@@ -46,6 +49,31 @@ public class Product {
         this.statusId = statusId;
     }
 
+    public double getMaxPrice() {
+        return maxPrice;
+    }
+
+    public void setMaxPrice(double maxPrice) {
+        this.maxPrice = maxPrice;
+    }
+
+    public double getMinPrice() {
+        return minPrice;
+    }
+
+    public void setMinPrice(double minPrice) {
+        this.minPrice = minPrice;
+    }
+
+    public String getCityName() {
+        return cityName;
+    }
+
+    public void setCityName(String cityName) {
+        this.cityName = cityName;
+    }
+
+    
     public int getProductId() {
         return productId;
     }

@@ -87,4 +87,34 @@ public class ProductHierarchyDAO {
         }
         return productHierarchys;
     }
+
+    public double getMinPriceByProductID(int productId) {
+        double minPrice = 0;
+        String strSelectMinPrice = "select min(price) as minPrice from ProductHierarchy where ProductID = ?";
+        try {
+            PreparedStatement ps = connection.prepareStatement(strSelectMinPrice);
+            ps.setInt(1, productId);
+            ResultSet rs = ps.executeQuery();
+            while (rs.next()) {
+                minPrice = rs.getDouble("minPrice");
+            }
+        } catch (Exception e) {
+        }
+        return minPrice;
+    }
+
+    public double getMaxPriceByProductID(int productId) {
+        double maxPrice = 0;
+        String strSelectMinPrice = "select max(price) as maxPrice from ProductHierarchy where ProductID = ?";
+        try {
+            PreparedStatement ps = connection.prepareStatement(strSelectMinPrice);
+            ps.setInt(1, productId);
+            ResultSet rs = ps.executeQuery();
+            while (rs.next()) {
+                maxPrice = rs.getDouble("maxPrice");
+            }
+        } catch (Exception e) {
+        }
+        return maxPrice;
+    }
 }

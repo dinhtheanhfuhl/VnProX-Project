@@ -293,11 +293,11 @@
                                             <div class="info">
                                                 <div class="row">
                                                     <h5>${product.productName}</h5>
-                                                    <h5 class="price-text-color">đ99.000~đ120.000</h5>
+                                                    <h5 class="price-text-color">${product.minPrice}~${product.minPrice}</h5>
                                                 </div>
                                                 <p class="btn-details"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
                                                     <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
-                                                    </svg>Hà nội</p>
+                                                    </svg>${product.cityName}</p>
                                                 <div class="clearfix">
                                                 </div>
                                             </div>
@@ -347,11 +347,11 @@
                             <div id="alltag">
                                 <img id="imgall" src="https://i.etsystatic.com/26809228/r/il/a75759/2809916329/il_fullxfull.2809916329_9o1f.jpg" class="img-responsive" alt="a" />
                                 <h4 id="titleall">${product.productName}</h4>
-                                <p id="priceall" >đ79.000 ~ đ100.000</p>
+                                <p id="priceall" >${product.minPrice} ~ ${product.maxPrice}</p>
                                 <p id="weightall">Trọng lượng ước tính <br>${product.weight}</p>
                                 <p id="locationall"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
                                     <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
-                                    </svg>Hà Nội</p>
+                                    </svg>${product.cityName}</p>
                             </div>
                         </c:forEach>
                     </div>
@@ -366,11 +366,11 @@
                         <div id="alltag">
                             <img src="https://i.etsystatic.com/26809228/r/il/a75759/2809916329/il_fullxfull.2809916329_9o1f.jpg" class="img-responsive" alt="a" />
                             <h4 id="titleall">${product.productName}</h4>
-                            <p id="priceall" >đ79.000 ~ đ100.000</p>
+                            <p id="priceall" >${product.minPrice} ~ ${product.maxPrice}</p>
                             <p id="weightall">Trọng lượng ước tính <br>${product.weight}</p>
                             <p id="locationall"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
                                 <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
-                                </svg>Hà Nội</p>
+                                </svg>${product.cityName}</p>
                         </div>
                     </c:forEach>
                 </div>

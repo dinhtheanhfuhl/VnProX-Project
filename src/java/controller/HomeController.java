@@ -5,7 +5,10 @@
 package controller;
 
 import dao.CategoryDAO;
+import dao.CityDAO;
 import dao.ProductDAO;
+import dao.ProductHierarchyDAO;
+import dao.SupplierDAO;
 import dbconnect.DBConnect;
 import entity.Category;
 import entity.Product;
@@ -28,17 +31,36 @@ public class HomeController extends HttpServlet {
         Connection conn = DBConnect.getConnection();
         ProductDAO productDAO = new ProductDAO(conn);
         CategoryDAO categoryDAO = new CategoryDAO(conn);
+        ProductHierarchyDAO productHierarchyDAO = new ProductHierarchyDAO(conn);
+        SupplierDAO supplierDAO = new SupplierDAO(conn);
+        CityDAO cityDAO = new CityDAO(conn);
 
         List<Product> allProducts = productDAO.getAllProduct();
         List<Category> allCategories = categoryDAO.getAllCategory();
         List<Product> productsByDateDesc = productDAO.getAllProductByDateDesc();
-        
+        addMaxMinCityNameForProduct(productsByDateDesc, productHierarchyDAO, supplierDAO, cityDAO);
+
         HashMap<Category, List<Product>> mapProduct = new HashMap<>();
 
         for (Category category : allCategories) {
             List<Product> products = productDAO.getAllProductByCateId(category.getCateId());
             mapProduct.put(category, products);
+            addMaxMinCityNameForProduct(products, productHierarchyDAO, supplierDAO, cityDAO);
+//            for (Product product : products) {
+//                product.setMinPrice(productHierarchyDAO.getMinPriceByProductID(product.getProductId()));
+//                product.setMaxPrice(productHierarchyDAO.getMaxPriceByProductID(product.getProductId()));
+//                int cityId = supplierDAO.getSupplierById(product.getSupplierId()).getCityId();
+//                product.setCityName(cityDAO.getCityById(cityId).getCityName());
+//            }
         }
+        addMaxMinCityNameForProduct(allProducts, productHierarchyDAO, supplierDAO, cityDAO);
+//        for (Product product : allProducts) {
+//            product.setMinPrice(productHierarchyDAO.getMinPriceByProductID(product.getProductId()));
+//            product.setMaxPrice(productHierarchyDAO.getMaxPriceByProductID(product.getProductId()));
+//            int cityId = supplierDAO.getSupplierById(product.getSupplierId()).getCityId();
+//            product.setCityName(cityDAO.getCityById(cityId).getCityName());
+//        }
+
         Set<Category> setCategory = mapProduct.keySet();
         request.setAttribute("mapProduct", mapProduct);
         request.setAttribute("allProducts", allProducts);
@@ -87,4 +109,12 @@ public class HomeController extends HttpServlet {
         return "Short description";
     }// </editor-fold>
 
+    private void addMaxMinCityNameForProduct(List<Product> products, ProductHierarchyDAO productHierarchyDAO, SupplierDAO supplierDAO, CityDAO cityDAO) {
+        for (Product product : products) {
+            product.setMinPrice(productHierarchyDAO.getMinPriceByProductID(product.getProductId()));
+            product.setMaxPrice(productHierarchyDAO.getMaxPriceByProductID(product.getProductId()));
+            int cityId = supplierDAO.getSupplierById(product.getSupplierId()).getCityId();
+            product.setCityName(cityDAO.getCityById(cityId).getCityName());
+        }
+    }
 }
