@@ -55,8 +55,7 @@ public class LogginController extends HttpServlet {
             }
             resp.addCookie(cookieEmail);
             resp.addCookie(cookiePass);
-            req.getRequestDispatcher("/HomeController").forward(req, resp);
-
+            req.getRequestDispatcher("viewsCustomer/home.jsp").forward(req, resp);
         }
     }
 
